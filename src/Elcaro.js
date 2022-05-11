@@ -12,7 +12,7 @@ function Elcaro() {
   const [customerAddress, setCustomerAddress] = useState(null);
   const [error, setError] = useState(null);
 
-  const contractAddress = '0xb684d78bed3bc6c82b818cf755d76084303ff14e';
+  const contractAddress = '0xA69d8369656B0ea5F2a9db844F10a929515575C5';
   const contractABI = abi.abi;
 
   const checkIfWalletIsConnected = async () => {
